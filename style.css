@@ -1,0 +1,76 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  max-width: 500px;
+  width: 90%;
+}
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #ddd;
+}
+.site-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 5px 0 2px;
+  color: #e91e63;
+}
+.network-name {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #444;
+}
+p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+ul {
+  text-align: left;
+  padding-left: 25px;
+  margin: 10px 0 20px;
+}
+ul li {
+  margin-bottom: 5px;
+}
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  background: #007BFF;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #0056b3;
+}
